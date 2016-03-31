@@ -4,7 +4,7 @@
   "description": "A representation of mixed radix numeral systems ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --recursive"
   },
   "author": "Martin Colwell",
   "license": "ISC",
