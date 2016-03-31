@@ -4,12 +4,14 @@
   "description": "A representation of mixed radix numeral systems ",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --recursive"
+    "test": "mocha --recursive",
+    "coverage": "./node_modules/.bin/istanbul cover _mocha -- --recursive"
   },
   "author": "Martin Colwell",
   "license": "ISC",
   "devDependencies": {
     "chai": "^3.5.0",
+    "istanbul": "^0.4.2",
     "lodash": "^4.7.0",
     "mocha": "^2.4.5"
   }
