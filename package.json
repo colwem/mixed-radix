@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A representation of mixed radix numeral systems ",
   "main": "index.js",
+  "repository": "https://github.com/colwem/mixed-radix.git",
   "scripts": {
     "test": "mocha --recursive",
     "coverage": "./node_modules/.bin/istanbul cover _mocha -- --recursive"
